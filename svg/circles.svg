@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" 
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+    circle:hover {fill-opacity:0.9;}
+    rect:hover {fill-opacity:0.9;}
+  </style>
+  <g style="fill-opacity:0.7;">
+    <circle cx="50%" cy="33%" r="25%" style="fill:red; stroke:black; stroke-width:0.1cm" />
+    <circle cx="33%" cy="66%" r="25%" style="fill:blue; stroke:black; stroke-width:0.1cm" />
+    <rect x="50%" y="50%" width="40%" height="40%" style="fill:green; stroke:black; stroke-width:0.1cm" />
+  </g>
+</svg>

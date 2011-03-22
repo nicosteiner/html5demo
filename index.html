@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="de">
+  <head>
+    <title>HTML5/CSS3 - Whiteboard Friday</title>
+    <link type="text/css" href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <h1>HTML5/CSS3 - Whiteboard Friday</h1>
+    </header>
+
+    <section class="slide-css3-button">
+      <div class="wrapper">
+        <h1>CSS3</h1>
+        <h2>Box-Shadow / Border-Radius / Gradients / Transition</h2>
+        <ul>
+          <li>Fakt 1</li>
+          <li>Fakt 2</li>
+          <li>Fakt 3</li>
+        </ul>
+        <article>
+          <button class="demo">Weiter zu den 1&amp;1 DSL Produkten</button>
+        </article>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+    
+    <section class="slide-css3-media">
+      <div class="wrapper">
+        <h1>CSS3</h1>
+        <h2>Media Queries</h2>
+        <ul>
+          <li>Styles abhängig von Browser, Display oder Medium</li>
+        </ul>
+        <article>
+          <ul class="navigation">
+            <li>Hunde</li>
+            <li>Katzen</li>
+            <li>Pferde</li>
+            <li>Schildkröten</li>
+            <li>Hamster</li>
+            <li>Häschen</li>
+          </ul>
+          <div class="content">
+            <div class="column">
+              <h3>Mops</h3>
+              <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mops-Pug_Felix_vom_M%C3%A4gdebrunnen.jpg/300px-Mops-Pug_Felix_vom_M%C3%A4gdebrunnen.jpg">
+              <p>
+                Der Mops stammt vermutlich aus dem Kaiserreich China, wo er vor mehr als 2.000 Jahren aus doggenähnlichen Hunden  herausgezüchtet wurde. Er galt als Kaisershund und es war ein Privileg der Kaiser, ihn besitzen und anfassen zu dürfen. Man vermutet, dass Hunde, die nicht zur Weiterzüchtung geeignet waren, von den Züchtern teuer an das Volk verkauft wurden.
+              </p>
+            </div>
+            <div class="column">
+              <h3>Dackel</h3>
+              <img src="http://upload.wikimedia.org/wikipedia/de/thumb/0/03/Kurzhaardackel.jpg/300px-Kurzhaardackel.jpg">
+              <p>
+                Der Dackel, auch Dachshund oder vor allem in der Jägersprache Teckel genannt, ist eine von der FCI anerkannte deutsche Hunderasse (FCI-Gruppe 4, Sektion 1, Standard Nr. 148). Die Rasse wird in Deutschland im Deutschen Teckelklub gezüchtet.
+              </p>
+            </div>
+            <div class="column">
+              <h3>Schäferhund</h3>
+              <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/DSHwiki.jpg/220px-DSHwiki.jpg">
+              <p>
+                Schäferhunde sind ursprünglich von Schafhirten (Schäfern - siehe Schäferei) zum Hüten und Treiben der Schafherde eingesetzte Hirtenhunde. Hunde wurden speziell zu diesem Zweck gezüchtet und so entstanden Arbeitshunde, die unter dem Begriff „Schäferhunde“ zusammengefasst werden.
+              </p>
+            </div>
+            <div id="welpe-bier">
+              <h3>:-)</h3>
+              <img src="http://3.bp.blogspot.com/_tt266gUuRb4/SnFVtg4126I/AAAAAAAAAB8/GefF5KIPxXk/s400/becks-hund.jpg" width="300">
+            </div>
+          </div>
+        </article>
+        <ul class="clearfix space">
+          <li>Noch ein Beispiel: <a target="blank" href="http://www.alistapart.com/d/responsive-web-design/ex/ex-site-linearize.html">A Flexible Grid</a>
+        </ul>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+    
+    <section class="slide-css3-font-face">
+      <div class="wrapper">
+        <h1>Webschriften mit @font-face</h1>
+        <h2>...</h2>
+        <ul>
+          <li>Fakt 1</li>
+          <li>Fakt 2</li>
+          <li>Fakt 3</li>
+        </ul>
+        <article>
+          Das ist "echter" Text. Darstellbar in allen modernen Browsern. Kein transparentes PNG. Die Schrift wird vom Webserver ausgeliefrt und ist deshalb für jedem Nutzer automatisch verfügbar.
+          <em>Die Frutiger geht auch! <small>(mit Schatten)</small></em>
+        </article>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+    
+    <section class="slide-audio">
+      <div class="wrapper">
+        <h1>Audio Element</h1>
+        <h2>...</h2>
+        <ul>
+          <li>Fakt 1</li>
+          <li>Fakt 2</li>
+          <li>Fakt 3</li>
+        </ul>
+        <article>
+          <div id="audio-player">
+            <button id="audio-play" class="player_control" type="button" onclick="playAudio();">
+              <span id="audio-player-control">Play</span>
+            </button>
+            <div id="audio-duration">
+              <div id="audio-duration-bar"></div>
+            </div>
+          </div>
+          <audio id="aplayer" onended="audioTrackEnded();" ontimeupdate="audioPlayerUpdate();" type="audio/ogg; codecs=vorbis" src="http://nicosteiner.com/funky-turkey.ogg">
+            <p>Your browser does not support the <code>audio</code> element.</p>
+          </audio>
+        </article>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+        
+    <section class="slide-video">
+      <div class="wrapper">
+        <h1>Video Element</h1>
+        <h2>Videos ohne Plugins im Browser abspielen</h2>
+        <ul>
+          <li>Verschiedene Container (Video + Audio): </li>
+          <li>Verschiedene Video-Codecs (<em>Cod</em>er+<em>Dec</em>oder): H.264, Theora, and VP8</li>
+          <li>Die Kombination machts ;-)</li>
+        </ul>
+        <article>
+          <div id="video-container">
+            <video id="vplayer" width="500" onended="videoTrackEnded();" ontimeupdate="videoPlayerUpdate();" src="http://nicosteiner.com/marcell.ogg" poster="img/video-poster.png" tabindex="0">
+              <p>Sorry, your browser does not support the <code>video</code> element.</p>
+            </video>
+            <div id="video-player">
+              <button id="video-play" class="player_control" type="button" onclick="playVideo();">
+                <span id="video-player-control">></span>
+              </button>
+              <div id="video-duration">
+                <div id="video-duration-bar"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <ul>
+          <li>Real World: <a target="blank" href="http://www.youtube.com/html5">http://www.youtube.com/html5</a></li>
+          <li><a target="blank" href="http://www.html5video.org/">http://www.html5video.org/</a></li>
+          <li><a target="blank" href="http://diveintohtml5.org/video.html">http://diveintohtml5.org/video.html</a></li>
+        </ul>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+
+    <section class="slide-canvas-2d">
+      <div class="wrapper">
+        <h1>Canvas 2D</h1>
+        <h2>Dynamisches Rendern von Bitmap-Grafiken</h2>
+        <ul>
+          <li>Ursprünglich von Apple als Bestandteil des Webkit entwickelt</li>
+          <li><a target="blank" href="http://simon.html5.org/dump/html5-canvas-cheat-sheet.html">http://simon.html5.org/dump/html5-canvas-cheat-sheet.html</a></li>
+          <li>Beispiel:</li>
+        </ul>
+        <article>
+          <canvas width="150" height="150" id="canvas-example"></canvas>
+        </article>
+        <ul>
+          <li>
+            Google: <a target="blank" href="http://www.chromeexperiments.com/">http://www.chromeexperiments.com/</a>
+            <br/>
+            <ul>
+              <li><a target="blank" href="http://www.chromeexperiments.com/detail/magnetic/">Magnetic</a></li>
+              <li><a target="blank" href="http://www.chromeexperiments.com/detail/trail/">Trail</a></li>
+              <li><a target="blank" href="http://www.chromeexperiments.com/detail/ball-pool/">Ball Pool</a></li>
+            </ul>
+          </li>
+          <li>Demos: <a target="blank" href="http://www.canvasdemos.com/">http://www.canvasdemos.com/</a></li>
+          <li>(Bei-)Spiel: <a target="blank" href="http://www.pirateslovedaisies.com/">http://www.pirateslovedaisies.com/</a></li>
+        </ul>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+    
+    <section class="slide-svg-support">
+      <div class="wrapper">
+        <h1>SVG Support</h1>
+        <h2>Scalable Vector Graphics</h2>
+        <ul>
+          <li>XML-basiertes Dateiformat zur Beschreibung zweidimensionaler Vektorgrafiken</li>
+          <li>2 Varianten: statisch oder dynamisch (interaktiv, animiert)</li>
+        </ul>
+        <article>
+          <img id="svg-simple-example" src="svg/circles.svg" width="100" height="100">
+        </article>
+        <ul>
+          <li>
+            Beispiele (Mozilla): <a target="blank" href="http://croczilla.com/bits_and_pieces/svg/samples/">http://croczilla.com/bits_and_pieces/svg/samples/</a>
+          </li>
+        </ul>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+    <!--
+    <section class="slide-forms">
+      <div class="wrapper">
+        <h1>HTML5 Forms</h1>
+        <h2>Neue Formular-Elemente</h2>
+        <ul>
+          <li>Fakt 1</li>
+          <li>Fakt 2</li>
+          <li>Fakt 3</li>
+        </ul>
+        <article>
+          <form>
+            <ul>
+              <li>
+                <label for"autofocus">Autofocus</label>
+                <input name="autofocus" autofocus>
+              </li>
+              <li>
+                <label for"placeholder">Placeholder</label>
+                <input name="placeholder" size="40" placeholder="Hier Branche eingeben">
+              </li>
+              <li>
+                <label for"email">Email</label>
+                <input name="email" type="email">
+              </li>
+              <li>
+                <label for"range">Range</label>
+                <input name="range" type="range" min="0" max="10" step="2" value="6">
+                (nicht im Firefox)
+              </li>
+              <li>
+                <label for"date">Date</label>
+                <input name="date" type="date">
+                (nicht im Firefox)
+              </li>
+              <li>
+                <label for"search">Search</label>
+                <input name="search" type="search">
+                (nicht im Firefox)
+              </li>
+              <li>
+                <label for"required">Required</label>
+                <input name="required" required>
+                <input type="submit" value="Go!">
+              </li>
+            </ul>
+          </form>
+        </article>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+    -->
+
+    <section class="slide-last">
+      <div class="wrapper">
+        <h1>Vielen Dank!</h1>
+        <h2>Fragen? Weitere Erläuterungen?</h2>
+        <article>
+          <p class="space">
+            Diese Präsentation findet ihr hier: <a href="http://www.nicosteiner.de/html5" target="blank">www.nicosteiner.de/html5</a>
+          </p>
+          <p>
+            Web: <a href="http://www.nicosteiner.de" target="blank">www.nicosteiner.de</a>
+          </p>
+          <p>
+            Twitter: <a href="http://www.twitter.com/sensationalseo" target="blank">@sensationalseo</a>
+          </p>
+          <p>
+            Slideshare: <a href="http://www.slideshare.net/n.steiner" target="blank">www.slideshare.net/n.steiner</a>
+          </p>
+        </article>
+        <button class="prev">&lt;&lt;</button>
+      </div>
+    </section>
+
+    <section class="slide-x">
+      <div class="wrapper">
+        <h1>CSS3</h1>
+        <h2>Next slide...</h2>
+        <ul>
+          <li>Fakt 1</li>
+          <li>Fakt 2</li>
+          <li>Fakt 3</li>
+        </ul>
+        <article>
+        </article>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Nico Steiner - 1&amp;1 Internet AG - 05.04.2011
+      </p>
+    </footer>
+    
+    <script src="script/jquery.js" type="text/javascript"></script>
+    <script src="script/jquery-easing.js" type="text/javascript"></script>
+    <script src="script/main.js" type="text/javascript"></script>
+    
+  </body>
+</html>
