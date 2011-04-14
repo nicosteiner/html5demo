@@ -10,6 +10,8 @@
       <h1>HTML5/CSS3 - Whiteboard Friday</h1>
     </header>
 
+    <aside><a href="https://github.com/nicosteiner/html5demo">Fork me on GitHub</a></aside>
+    
     <section class="slide-intro">
       <div class="wrapper">
         <h1>Themen</h1>
@@ -20,21 +22,21 @@
           <li>Neue Layout-Möglichkeiten</li>
           <li>device-abhängige Styles</li>
           <li>Web Fonts</li>
+          <li>Neue Möglichkeiten für Formulare</li>
           <li>Audio und Video</li>
           <li>Pixelgrafiken</li>
           <li>Vektorgrafiken</li>
-          <li>Neue Möglichkeiten für Formulare</li>
-          <li>thema</li>
-          <li>thema</li>
+          <li>3D Rendering</li>
+          <li>JavaScript APIs</li>
         </ul>
         <button class="prev">&lt;&lt;</button>
         <button class="next">&gt;&gt;</button>
       </div>
     </section>
-    
+
     <section class="slide-facts">
       <div class="wrapper">
-        <h1>Facts</h1>
+        <h1>Markup - Facts</h1>
         <h2>Alles ist erlaubt ;-)</h2>
         <ul>
           <li>&lt;!doctype html&gt;</li>
@@ -217,11 +219,9 @@
     <section class="slide-audio">
       <div class="wrapper">
         <h1>Audio Element</h1>
-        <h2>...</h2>
         <ul>
-          <li>Fakt 1</li>
-          <li>Fakt 2</li>
-          <li>Fakt 3</li>
+          <li>Audio-Element ist echter Bestandteil des Browsers</li>
+          <li>Kein Plugin (Flash) nötig</li>
         </ul>
         <article>
           <div id="audio-player">
@@ -244,7 +244,6 @@
     <section class="slide-video">
       <div class="wrapper">
         <h1>Video Element</h1>
-        <h2>Videos ohne Plugins im Browser abspielen</h2>
         <ul>
           <li>Verschiedene Container (Video + Audio): </li>
           <li>Verschiedene Video-Codecs (<em>Cod</em>er+<em>Dec</em>oder): H.264, Theora, and VP8</li>
@@ -317,7 +316,7 @@
         </article>
         <ul>
           <li>
-            Beispiele (Mozilla): <a target="_blank" href="http://croczilla.com/bits_and_pieces/svg/samples/">http://croczilla.com/bits_and_pieces/svg/samples/</a>
+            Beispiele (Microsoft): <a target="_blank" href="http://ie.microsoft.com/testdrive/Performance/PulsatingBubbles/Default.xhtml">http://ie.microsoft.com/testdrive/Performance/PulsatingBubbles/Default.xhtml</a>
           </li>
         </ul>
         <button class="prev">&lt;&lt;</button>
@@ -345,6 +344,83 @@
       </div>
     </section>
 
+    <section class="slide-geolocation">
+      <div class="wrapper">
+        <h1>Geolocation</h1>
+        <h2>Wo befinde ich mich?</h2>
+        <ul>
+          <li>Nicht ohne Zustimmung des Nutzers!</li>
+          <li>Lokalisierung über Latitude/Longitute</li>
+          <li>APIs helfen bei der Visualisierung</li>
+        </ul>
+        <article>
+          <p>
+            <a target="_blank" href="http://ie.microsoft.com/testdrive/HTML5/Geolocation/Default.html">Beispiel für Geolocation</a>
+          </p>
+        </article>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+
+    <section class="slide-drag-drop">
+      <div class="wrapper">
+        <h1>Drag &amp; Drop</h1>
+        <h2>Natives Verschieben von Objekten</h2>
+        <ul>
+          <li>"Ziehen" von Objekten auf eine Dropzone</li>
+          <li>Umstrittenes UI-Element</li>
+        </ul>
+        <article>
+          <p>
+            <a target="_blank" href="http://html5demos.com/drag">Demo</a>
+          </p>
+        </article>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+
+    <section class="slide-history-api">
+      <div class="wrapper">
+        <h1>History API</h1>
+        <h2>Den Back-Button kontrollieren</h2>
+        <ul>
+          <li>Wichtig für Webapplikationen</li>
+          <li>Zurück/Vor zum letzten/nächsten Zustand</li>
+          <li>Nicht: Zurück zur letzten Seite</li>
+          <li>URL verändert sich (eindeutige Ressource)</li>
+          <li>Kein Pagerefresh (statt dessen Event)</li>
+        </ul>
+        <article>
+          <p>
+            Demo: <a target="_blank" href="http://diveintohtml5.org/examples/history">http://diveintohtml5.org/examples/history</a>
+          </p>
+        </article>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+
+    <section class="slide-web-workers">
+      <div class="wrapper">
+        <h1>Web Workers</h1>
+        <h2>Berechnungen im Hintergrund ausführen</h2>
+        <ul>
+          <li>Der DOM muss draußen bleiben</li>
+          <li>Geeignet für aufwändige mathematische Berechnungen</li>
+          <li>3D, Bildbearbeitung</li>
+        </ul>
+        <article>
+          <p>
+            Demo: <a target="_blank" href="http://dev.opera.com/articles/view/web-workers-rise-up/">http://dev.opera.com/articles/view/web-workers-rise-up/</a>
+          </p>
+        </article>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+
     <section class="slide-last">
       <div class="wrapper">
         <h1>Vielen Dank!</h1>
@@ -354,9 +430,6 @@
             Diese Präsentation findet ihr hier: <a href="http://www.thatsmysite.de/demos/html5/" target="_blank">http://www.thatsmysite.de/demos/html5/</a>
           </p>
           <p class="space">
-            Für diejenigen, die sich beteiligen möchten: <a href="https://github.com/nicosteiner/html5demo5" target="_blank">https://github.com/nicosteiner/html5demo</a>
-          </p>
-          <p class="space">
             Web: <a href="http://www.nicosteiner.de" target="_blank">www.nicosteiner.de</a>
           </p>
           <p>
@@ -364,6 +437,21 @@
           </p>
           <p>
             Slideshare: <a href="http://www.slideshare.net/n.steiner" target="_blank">www.slideshare.net/n.steiner</a>
+          </p>
+        </article>
+        <button class="prev">&lt;&lt;</button>
+        <button class="next">&gt;&gt;</button>
+      </div>
+    </section>
+
+    <section class="slide-very-last">
+      <div class="wrapper">
+        <h1>Na... wer hat Lust?</h1>
+        <h2>Fork on GitHub!</h2>
+        <article>
+          <img src="img/team.jpg" alt="Mitstreiter">
+          <p class="space">
+            Für all diejenigen, die sich beteiligen möchten: <a href="https://github.com/nicosteiner/html5demo" target="_blank">https://github.com/nicosteiner/html5demo</a>
           </p>
         </article>
         <button class="prev">&lt;&lt;</button>
