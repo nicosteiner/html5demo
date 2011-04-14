@@ -17,13 +17,13 @@ html, body {
 body {
   background-color: #fff;
   font-size: 14px;
-  color: #225;
+  color: #fff;
   font-family: Calibri, Arial, sans serif;
   line-height: 1em;
 }
 
 header {
-  background-color: #006;
+  background-color: #003278;
   padding: 25px 0 0 0;
 }
 
@@ -31,12 +31,12 @@ header h1 {
   color: #eef;
   font-size: 16px;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
-  border-top: 1px #33f solid;
-  border-bottom: 1px #003 solid;
+  border-top: 1px #238eca solid;
+  border-bottom: 1px #003972 solid;
   margin: 0;
   padding: 20px;
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-  background-image: -moz-linear-gradient(0% 0% 270deg, #0000ff, #00a);
+  background-image: -moz-linear-gradient(0% 0% 270deg, #007cc1, #0059a5);
 }
 
 footer {
@@ -56,7 +56,7 @@ footer p {
 }
 
 section {
-  background-color: #00a;
+  background-color: #003d89;
   -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
   width: 100%;
   position: absolute;
@@ -69,7 +69,7 @@ section div.wrapper {
 }
 
 section a {
-  color: #2ac;
+  color: #ca2;
 }
 
 section a:hover {
@@ -79,7 +79,7 @@ section a:hover {
 section h1,
 section h2,
 section h3 {
-  color: #ccf;
+  color: #eef;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   font-size: 22px;
   padding: 0;
@@ -91,7 +91,7 @@ section h1 {
 
 section ul,
 section p {
-  color: #ccf;
+  color: #eef;
   font-size: 20px;
   font-weight: bold;
   margin-top: 15px;
@@ -149,6 +149,12 @@ section button.prev {
 section button.next {
   left: 60px;
   bottom: 50px;
+}
+
+/* Slide CSS3 Button */
+
+section.slide-intro img {
+  float: right;
 }
 
 /* Slide CSS3 Button */
